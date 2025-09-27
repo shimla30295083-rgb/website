@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block  and Inline Elements</title>
+    <style>
+        .block {
+            background-color: #803737;
+            color: #aa8c51;
+            margin: 8px 0;
+            padding: 8px;
+        }
+
+        .inline {
+            color: #a04747;
+            background-color: #dbdb92;
+            padding: 4px;
+            margin: 2px;
+        }
+
+        .inline-block {
+            display: block;
+            margin: 6px 0;
+            color: rgb(73, 156, 156);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(144, 144, 223);
+        }
+
+        .section-title {
+            color: rgb(127, 212, 127);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Using Block and Inline Elements</h1>
+
+    <h2 class="section-title">Examples of Block Elements</h2>
+    
+    <div class="block">It  is a div element</div><p class="block">It is a paragraph element</p>
+    <article class="block">It is also block-level</article>
+    <section class="block">It is a section tag</section>
+    <ul class="block">
+        <li>1st code</li>
+        <li>2nd code</li>
+    </ul>
+    <ol class="block">
+        <li>3rd code</li>
+        <li>4th code</li>
+    </ol>
+
+    <h2 class="section-title">Examples of Inline Elements</h2>
+
+    <span class="inline">It is a cat</span>
+    <b class="inline">Mango</b>
+    <i class="inline">Banana</i>
+    <a href="#" class="inline">Egg</a>
+    <strong class="inline">Tomato</strong>
+    <em class="inline">Meet</em>
+
+    <h2 class="section-title">Converted Inline to Block</h2>
+
+    <span class="inline-block">It is a cat</span>
+    <a href="#" class="inline-block">Mango</a>
+    <b class="inline-block">Banana</b>
+
+    <h2 class="section-title">Converted Block to Inline</h2>
+
+    <div style="display: inline; background: #7c7373; padding: 5px;">Div as inline</div>
+    <p style="display: inline; background: #7a6e6e; padding: 5px;">Paragraph as inline</p>
+    <article style="display: inline; background: #867777; padding: 5px;">Article as inline</article>
+
+</body>
+</html>
+```
